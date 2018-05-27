@@ -1,0 +1,50 @@
+﻿Task 1.1
+ Korrekt.
+
+
+Task 1.2
+ Korrekt.
+
+
+Task 1.3
+ Korrekt.
+
+
+Task 2.1
+ Fint rekursionstræ
+. Jeres gæt er lidt højt, i nævner selv at det totale arbejde pr niveau falder i hvert niveau,
+ og det er det som gør at det bliver lavere. Hvis i summerer jeres udtryk op til dybden af træet
+ vil i med et lukket udtryk for en geometrisk sum finde at O(n) er et bedre gæt.
+
+
+Task 2.2 
+Igen bliver jeres gæt lidt højt selvom i regner meget på det. Prøv igen med gæt O(n) og så skulle
+ substitutionen ikke se meget anderledes ud en den i allerede har lavet :)
+
+
+Task 3
+ Korrekt
+
+
+Task 4
+ Det her er ikke nok, i bliver nødt til at argumentere for hvert skridt af algoritmen ikke tager mere end O(n log n).
+Hvorfor tager alle kaldene til partitition ikke samlet mere end n log n?'
+Lige så med heap sort og insertion sort.
+
+
+Task 5
+ Korrekt nok, bortset fra at både quicksort, insertionsort og heapsort er in-place, dvs de bruger O(1) plads. Dermed er
+hele algoritmen in-place.
+
+
+Task 6
+ Korrekt. I får dog skrevet at insertion-sort kun kører n^2 hvis arrayet er omvendt sorteret, dette er ikke korrekt.
+Faktisk kører insertionsort også gennemsnitligt O(n^2) på et tilfældigt array.
+
+Dispositioner:
+
+Peter: Du har en masse gode ting med, jeg ville dog nok starte med merge sort som eksempel og så bruge den til at
+       forklare alle de koncepter du har skrevet om. Master theorem bør du ikke gå i dybden med, men mere bare nævne.
+
+Torur: Fin disposition. Husk at det er divide and conquer der er emnet og ikke sortering. Så hvis du sammenligner
+       space complexity fx så gør det hurtigt sådan at du kan vise resten af det du vil.
